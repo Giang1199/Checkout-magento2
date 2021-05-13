@@ -1,0 +1,23 @@
+<?php
+/**
+ * @var $block \Dtn\Checkout2\Block\Adminhtml\Order\View\CustomTab
+ */
+?>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+<div style="padding-top: 25px">
+    <div>
+        <p>
+            <span style="font-size: 16px;"><strong>Special Request: </strong></span>
+            <?php
+                echo $block->getCustomerRequest();
+            ?>
+        </p>
+        <br>
+        <br>
+    </div>
+</div>
